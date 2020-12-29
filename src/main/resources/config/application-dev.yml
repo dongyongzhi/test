@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: DEBUG
-    io.github.jhipster: DEBUG
-    com.svein.test: DEBUG
+    ROOT: info
+    io.github.jhipster: info
+    com.svein.test: info
 
 spring:
   profiles:
@@ -39,7 +39,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
     username: root
-    password:
+    password: root
     hikari:
       poolName: Hikari
       auto-commit: false
